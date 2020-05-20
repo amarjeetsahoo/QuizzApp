@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">QuizzApp</string>
+    <string name="question1">Union Budget of India is presented by whom and in which house/ houses of the Parliament ?</string>
+    <string name="question2">Which are the programming languages ?</string>
+    <string name="Question3">( :: ) is known as _____ operator</string>
+    <string name="opt1Q4">printf(\"\\n\");</string>
+    <string name="opt2Q4">printf(\"n\\\");</string>
+    <string name="opt3Q4">printf(\"n\");</string>
+    <string name="opt4Q4">printf(\'\\n\');</string>
+    <string name="Question5">What are the language used to develop Android APP ?</string>
+    <string name="Question4">Which statement can print \\n on the screen ?</string>
+    <string name="ans1Q1">Finance Minister of India; Lok Sabha</string>
+    <string name="ans2Q1">Prime Minister of India; Rajya Sabha</string>
+    <string name="ans3Q1">Cabinet Secretary; Both Lok Sabha and Rajya Sabha</string>
+    <string name="ans4Q1">President of India; in joint session of Parliamnet</string>
+</resources>

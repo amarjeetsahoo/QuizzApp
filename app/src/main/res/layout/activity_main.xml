@@ -1,0 +1,218 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Question 1"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                style="@style/QuestionAttributes"
+                android:text="@string/question1" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/option1"
+                    style="@style/OptionsAttribute"
+                    android:text="@string/ans1Q1" />
+
+                <RadioButton
+                    android:id="@+id/option2"
+                    style="@style/OptionsAttribute"
+                    android:text="@string/ans2Q1" />
+
+                <RadioButton
+                    android:id="@+id/option3"
+                    style="@style/OptionsAttribute"
+                    android:text="@string/ans3Q1" />
+
+                <RadioButton
+                    android:id="@+id/option4"
+                    style="@style/OptionsAttribute"
+                    android:text="@string/ans4Q1" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Question 2"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                style="@style/QuestionAttributes"
+                android:text="@string/question2" />
+
+            <CheckBox
+                android:id="@+id/option1C"
+                style="@style/OptionsAttribute"
+                android:text="C++" />
+
+            <CheckBox
+                android:id="@+id/option2C"
+                style="@style/OptionsAttribute"
+                android:text="Java" />
+
+            <CheckBox
+                android:id="@+id/option3C"
+                style="@style/OptionsAttribute"
+                android:text="English" />
+
+            <CheckBox
+                android:id="@+id/option4C"
+                style="@style/OptionsAttribute"
+                android:text="Spanish" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Question 3"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                style="@style/QuestionAttributes"
+                android:text="@string/Question3" />
+
+            <EditText
+                android:id="@+id/Edittxt1"
+                style="@style/OptionsAttribute"
+                android:hint="Type Your Answer"
+                android:inputType="textCapWords" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Question 4"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                style="@style/QuestionAttributes"
+                android:text="@string/Question4" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/Roption1"
+                    style="@style/OptionsAttribute"
+                    android:text="@string/opt1Q4" />
+
+                <RadioButton
+                    android:id="@+id/Roption2"
+                    style="@style/OptionsAttribute"
+                    android:text="@string/opt2Q4" />
+
+                <RadioButton
+                    android:id="@+id/Roption3"
+                    style="@style/OptionsAttribute"
+                    android:text="@string/opt3Q4" />
+
+                <RadioButton
+                    android:id="@+id/Roption4"
+                    style="@style/OptionsAttribute"
+                    android:text="@string/opt4Q4" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Question 5"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                style="@style/QuestionAttributes"
+                android:text="@string/Question5" />
+
+            <CheckBox
+                android:id="@+id/option1C1"
+                style="@style/OptionsAttribute"
+                android:text="C++" />
+
+            <CheckBox
+                android:id="@+id/option2C1"
+                style="@style/OptionsAttribute"
+                android:text="Java" />
+
+            <CheckBox
+                android:id="@+id/option3C1"
+                style="@style/OptionsAttribute"
+                android:text="Java Scripts" />
+
+            <CheckBox
+                android:id="@+id/option4C1"
+                style="@style/OptionsAttribute"
+                android:text="Kotlin" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="50dp"
+            android:onClick="submitAnswer"
+            android:text="Submit answer" />
+    </LinearLayout>
+</ScrollView>
